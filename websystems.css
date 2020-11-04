@@ -1,0 +1,218 @@
+body, html {
+    margin: 0;
+}
+
+body {
+    background-image: url("./img/Background.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: "Verdana", Helvetica, sans-serif;
+}
+
+.name {
+    font-size: 50px;
+    color: red;
+}
+
+#about {
+    margin-top: 100px;
+    margin-left: 115px;
+    margin-right: 115px;
+    margin-bottom: 100px;
+}
+    
+#general {
+    color: white;
+    text-align: center;
+} 
+
+#release {
+    margin-top: 155px;
+    color: white;
+}
+
+#certificate {
+    text-align: right;
+    color: white;
+    margin-top: 0px;
+    margin-right: auto;
+    position: relative;
+}
+
+/*image source: https://cytus.fandom.com/wiki/Ivy*/
+.img {
+    opacity: 0.2;
+    position: fixed;
+    max-width: 100%;
+    height: auto;	
+    bottom: 0px;
+    left: 0px;
+}
+
+.web-body {
+    border: 5px solid rgba(255, 0, 0, .6);
+    background-color: rgba(211, 211, 211, .2);
+    margin-top: 100px;
+    margin-left: 138px;
+    margin-right: 138px;
+    margin-bottom: 100px;
+}
+
+.flex-container {
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+
+
+    /*guide: https://www.w3schools.com/cssref/pr_class_display.asp*/
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.navigation {
+    flex-direction: row;
+    float: left;
+    font-weight: bold;
+	font-size: 18px;
+
+}
+
+/*guide: https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+.navigation a {
+    flex-direction: row;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+/*guide: https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+.navigation a:hover:not(.active) {
+    background-color: rgba(26, 24, 24, 0.438);
+}
+
+/*guide: https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+.active {
+    background-color: red;
+}
+
+a {
+    color: rgb(97, 219, 235);
+}
+
+.firstwd {
+    color: red;
+    font-size: 29px;
+}
+
+h {
+    color: red; 
+    text-align: center;
+    font-size: 60px; 
+    font-weight: bold;
+}
+
+h1 {
+    color: white; 
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+h3 {
+    color: red; 
+    text-align: center;
+    font-size: 29px;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 300px;
+}
+
+.para {
+    color: white;
+    text-align: left;
+    padding: 0.2% 18%;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1.5px solid white;
+}
+
+th {
+    text-align: center;
+    font-size: 24px;
+}
+
+td {
+    font-size: 18px;
+    text-align: left;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 16px;
+}
+
+/*guide: https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp*/
+@keyframes fadein {
+    from {
+    opacity:0;
+    }
+    to {
+    opacity:1;
+    }
+}
+
+/*Specifically for Chrome and Safari*/
+@-webkit-keyframes fadein { 
+    from {
+    opacity:0;
+    }
+    to {
+    opacity:1;
+    }
+}
+
+/*Specifically for Firefox*/
+@-moz-keyframes fadein { 
+    from {
+    opacity:0;
+    }
+    to {
+    opacity:1;
+    }
+}
+
+/*Specifically for Opera*/
+@-o-keyframes fadein { 
+    from {
+    opacity:0;
+    }
+    to {
+    opacity: 1;
+    }
+}

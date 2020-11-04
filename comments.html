@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>>>INSERT TITLE HERE<<</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Trong Dat Nguyen">
+    <meta name="description" content="My web project">
+    <meta name="keywords" content="HTML, CSS, UTS, project">
+    <link rel="stylesheet" href="./websystems.css">
+    <link rel="icon" href="./icon/icon.ico" type="image/x-icon"/>
+</head>
+
+<body>
+    <ul class="flex-container">
+        <li class="navigation"><a href="./index.html"><img src="icon/home.ico" alt="home" width="44" height="44"></a></li>
+        <li class="navigation"><a href="./past.html">The Past</a></li>
+        <li class="navigation"><a href="./future.html">The Future</a></li>
+        <li class="navigation"><a class="active" href="./comments.html">Comments</a></li>
+    </ul>
+
+    <div class="web-body">
+        <header>
+            <h1>Comments</h1>
+        </header>
+
+        
+        <div class="para">
+                <br> <br>
+            <h3>Technical</h3>
+            <P><span class="firstwd">T</span>he first page of my website is the index.html under the ‘websystems’ directory. 
+            This page has a nice dark grey navigation bar/flexbox which is located on the left side of the webpage. The bar 
+            contains the following links to the other pages including: past.html, future.html, comments.html and an icon which 
+            contains a link to index.html page – the website’s homepage. A flexbox is a good idea in order to organise the 
+            content to properly positioned while the browser is being resized by the user – a great solution to access the 
+            website using small screen devices. The navigation buttons will turn into a darker grey when you hover your mouse 
+            near it, and will turn red if you are on the page that you are currently on (“The Past” tab on the navigation bar 
+            will stay red when you are on “The Past” page).</P>
+            <P><span class="firstwd">I</span>n the homepage, you will see a brief information about myself including my full 
+            name and my current degree at UTS, as well as the release date of the website and website’s certification. I want 
+            the homepage to be seen without scrolling for the viewers to know about my details in a glance. </P>
+            <P><span class="firstwd">T</span>he one that is the most impressive about this website to me is not about the 
+            aesthetics, accessibility or usability of the website, but the fact that I can manage to put every bits of the 
+            website together without any HTML and CSS beforehand, or any programming knowledge whatsoever. I mostly use ‘.class’ 
+            and ‘#id’ selector because they are easy to use and organise in my opinion. I used class selector to separate each 
+            part in the website: navigation bar, main heading, sub-heading, paragraph, etc. And ‘#id’ selector to point out modify 
+            the specific component in the class. Naming the classes, ids and try to locate and add some spices to them when writing 
+            the CSS file for me was very difficult but it is worth it.</P>
+            <P><span class="firstwd">A</span>t first I want to make the navigation bar up to the very top of the webpage, but somehow 
+            it did not sit on a single row no matter how I set it up (make a new class, add another CSS line, etc.) so I ended up 
+            with a vertical chunk of navigation buttons. But it looked better than I expected, so I designed the rest of the web 
+            around it. Added border to my text using ’border’ and aligned it using ‘margin’ to make it look better than just a 
+            plain piece of paragraphs on a dark background. Finally, I used ‘span’ to add color and resized the first letter of 
+            every paragraph. I guessed it looks cool. To make the webpage more interesting to look at, I added a simple icon 
+            on the bottom left, since the assignment require at least 1 image appear on the page.</P>
+                <br> <br>
+
+            <h3>Aesthetics</h3>
+            <p><span class="firstwd">I </span>stick with the black and red theme on my website. The reason why I add the icon 
+            that you can see on the bottom right of the page and the icon on the page’s tab in the browser (for example the 
+            play button when you go to Youtube) is that it is from the game that I like. I have been influenced by the mobile 
+            rhythms game call <a href="https://www.rayark.com/en/games/cytus2/" target="blank">Cytus II</a>, the icon and the black-and-red 
+            aesthetic taken from <a href="https://cytus.fandom.com/wiki/Ivy" target="blank">Ivy</a> – one character from the game. The background 
+            that I choose also comes from the game, specifically a blurred image of the character’s personal OS.</p>
+            <p><span class="firstwd">T</span>his website was aimed to user that see my page as personal since I do not use any 
+            advance techniques and skills when developing my site. The ‘view-port’ meta allows the website to be readable across 
+            multiple screen sizes. While I only use black (dark grey to be precise) and red for my webpage, it does no t hard 
+            to read at all due to the text color being white. I put all the webpage’s content beside the navigation bar into a 
+            translucent panel with red border. This method makes the page feel like it has more depth in it without being too 
+            difficult to operate and use the website.</p>
+            <p><span class="firstwd">I </span>keep the theme consistence across all pages: past, future and comments to make 
+            them look like they come from one source, which is very important, while making them easier to decorate since they 
+            used exactly the same style.</p>
+            <p><span class="firstwd">I </span>would like to add animation to the background to make it feels like you have 
+            accessed the system, but the assignment does not allow it so meh.</p>
+                <br> <br>
+
+            <h3>Accessibility</h3>
+            <table>
+                <tr>
+                    <th>Accessibility Features</th>
+                    <th>Reasons</th>
+                </tr>
+                <tr>
+                    <td>Alternative texts on all the picture and icon on the website</td>
+                    <td>For the graphic to be understood and to make sense when it could not be shown. Also make them ‘visible’ 
+                    to blind people that use screen reader.</td>
+                </tr>
+                <tr>
+                    <td>Header for each webpage and paragraph</td>
+                    <td>Make the content easy to understand and navigate around the page</td>
+                </tr>
+                <tr>
+                    <td>Content is clear to look at and easy to read, understand</td>
+                    <td>That is its only job. It should be</td>
+                </tr>
+                <tr>
+                    <td>In-text hyperlink</td>
+                    <td>Provide further information about the text while still make sense to read. Who want to read a paragraph 
+                    with URLs cramped all over it?</td>
+                </tr>
+                <tr>
+                    <td>Use colors-only to convey meanings (no I do not)</td>
+                    <td><span class="italic">*Colorblind people have left the chat*</span>
+                        What a dirty move!
+                    </td>
+                </tr>
+            </table>
+                <br> <br>
+        </div>
+    </div>
+
+    <div class="img">
+        <img src="img/Icon.png" alt="Icon Graphic">
+    </div>
+
+</body>
+</html>
